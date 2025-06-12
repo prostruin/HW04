@@ -142,6 +142,7 @@ public:
         if (stock.find(title) != stock.end())
         {
             stock[title]++;
+            cout << "책 '" << title << "'을(를) 반납했습니다. 남은 재고:" << stock[title] << "개" << endl;
         }
 		else
 		{
